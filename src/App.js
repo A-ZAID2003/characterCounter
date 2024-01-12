@@ -53,7 +53,10 @@ const App = () => {
         <UserInputList inputs={userInputs} onRemove={handleRemoveInput} />
       ) : (
         <>
-          <img src="https://via.placeholder.com/150" alt="no user inputs" />
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/no-user-inputs-img.png"
+            alt="no user inputs"
+          />
           <h1>Character Counter</h1>
         </>
       )}
